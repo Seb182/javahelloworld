@@ -1,6 +1,6 @@
 FROM java:8
 
-COPY HelloWorld.java /
+COPY src/HelloWorld.java /
 
 RUN javac HelloWorld.java
 
